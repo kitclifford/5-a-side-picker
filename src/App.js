@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import PageHeader from './Components/PageHeader';
 
 function App() {
   return (
-    <div>
-      <h1>5 a side!</h1>
-    </div>
+    <>
+      <PageHeader/>
+    </>
   );
 }
 
