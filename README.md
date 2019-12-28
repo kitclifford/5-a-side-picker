@@ -4,6 +4,10 @@ Technical excercise set at the end of the Autumn 2019 DevelopMe Web Development 
 
 10 names can be added which will be randomly split into 2 teams of 5.
 
+## Credit/Thanks
+
+Football SVG - <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
