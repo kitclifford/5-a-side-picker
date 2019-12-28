@@ -1,3 +1,9 @@
+## 5-a-side Football Team Picker
+
+Technical excercise set at the end of the Autumn 2019 DevelopMe Web Development Fellowship.
+
+10 names can be added which will be randomly split into 2 teams of 5.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
