@@ -1,5 +1,10 @@
 const initial = {
-    players: [],
+    players: [
+        {name: "Jeff"},
+        {name: "Mike"},
+        {name: "Steve"},
+
+    ],
 }
 
 export default initial;
