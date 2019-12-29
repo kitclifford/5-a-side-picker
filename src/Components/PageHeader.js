@@ -6,9 +6,9 @@ const PageHeader = () => (
 
     <Jumbotron>
         <div className="page_header">
-            <img className="football_header_icon" src={ football_svg }/>
+            <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
             <h1>5-a-side Football Team Picker</h1>
-            <img className="football_header_icon" src={ football_svg }/>
+            <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
         </div>
     </Jumbotron>
 
