@@ -5,7 +5,7 @@ import CreatedPlayer from '../CreatedPlayer/CreatedPlayer';
 const CreatedPlayerList = ({ players }) => (
     <>
         { players.map ((player, index) => (
-            <CreatedPlayer key= { index }  name={ player.name }/>
+            <CreatedPlayer key={ index } listposition={ index } name={ player.name }/>
         ))}
     </>
 );
