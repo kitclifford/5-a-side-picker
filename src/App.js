@@ -5,6 +5,8 @@ import PageHeader from './Components/PageHeader';
 import AddPlayer from './Components/AddPlayer';
 import CreatedPlayerList from './Components/CreatedPlayerList';
 import ResetButton from './Components/ResetButton';
+import RandomisedTeam1 from './Components/RandomisedTeam/RandomisedTeam1';
+import RandomisedTeam2 from './Components/RandomisedTeam/RandomisedTeam2';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <AddPlayer/>
       <CreatedPlayerList/>
       <ResetButton/>
+      <RandomisedTeam1/>
+      <RandomisedTeam2/>
     </>
   );
 }

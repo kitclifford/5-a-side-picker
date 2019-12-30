@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import delete_icon from '../../Media/svgs/delete-button.svg';
 
 
@@ -13,32 +13,46 @@ class CreatedPlayerList extends Component{
 
         }
 
-        this.handleClick = this.handleClick.bind(this);
+        this.handleDelete = this.handleDelete.bind(this);
+        this.handleGenerate = this.handleGenerate.bind(this);
+
     }
 
-    handleClick(e){ 
+    handleDelete(e){ 
         this.props.deletePlayer(e.currentTarget.id);
     }
 
-    render(){
-        return(
-            this.props.players.map ((player, index) => (
-                <Card key={ index }>
-                    <div className="player_card">
-                        <p>{ player.name }</p>
-                        <img 
-                            src={ delete_icon } 
-                            className="delete_icon"
-                            onClick={ this.handleClick }
-                            alt='Delete icon'
-                            id={ player.name }
-                        />
-                    </div>
-                </Card>
-            ))
-        )
+    handleGenerate(){
+        this.props.generateTeams();
     }
 
+    render(){
+
+        let { players } = this.props;
+
+        return(
+            <>
+                { players.map ((player, index) => (
+                    <Card key={ index }>
+                        <div className="player_card">
+                            <p>{ player.name }</p>
+                            <img 
+                                src={ delete_icon } 
+                                className="delete_icon"
+                                onClick={ this.handleDelete }
+                                alt='Delete icon'
+                                id={ player.name }
+                            />
+                        </div>
+                    </Card>
+                )) }
+                <Button 
+                    style={{ display: players.length === 10 ? "block" : "none" }}
+                    onClick={ this.handleGenerate }
+                >Generate Teams</Button>
+            </>
+        )
+    }
 }
 
 export default CreatedPlayerList;

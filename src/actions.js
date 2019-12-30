@@ -12,9 +12,14 @@ export const reset = () => {
 };
 
 export const deletePlayer = (id) => {
-
     return {
         type: "deletePlayer",
         id: id
+    };
+};
+
+export const generateTeams = () => {
+    return {
+        type: "generateTeams"
     };
 };

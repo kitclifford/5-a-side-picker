@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 
-import { deletePlayer } from '../../actions';
+import { deletePlayer, generateTeams } from '../../actions';
 
 import CreatedPlayerList from './CreatedPlayerList';
 
@@ -12,7 +12,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return{
-        deletePlayer: (id) => dispatch(deletePlayer(id))
+        deletePlayer: (id) => dispatch(deletePlayer(id)),
+        generateTeams: () => dispatch(generateTeams())
     }
 };
 
