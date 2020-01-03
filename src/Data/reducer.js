@@ -19,7 +19,7 @@ const randomTeams = ( current_state ) => {
     let team1 = [];
     let team2 = [];
 
-    for (let i = 0; i <= 9; i += 1){
+    for (let i = 0; i <= ((current_state.playersPerSide * 2) - 1); i += 1){
 
         let rand = Math.floor(Math.random() * current_state.players.length);
         let randomPlayer = current_state.players.splice(rand, 1);

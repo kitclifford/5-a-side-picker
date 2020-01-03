@@ -3,11 +3,11 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 
 
-const GenerateTeamsButton = ({ players, generateTeams, buttonText }) => (
+const GenerateTeamsButton = ({ players, generateTeams, buttonText, playersPerSide }) => (
 
     <Button
         onClick={ generateTeams }
-        style={ { display: players.length === 10 ? "block" : "none"} }>
+        style={ { display: players.length === (playersPerSide * 2) ? "block" : "none"} }>
         { buttonText }
     </Button>
 

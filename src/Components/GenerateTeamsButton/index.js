@@ -6,7 +6,8 @@ import GenerateTeamsButton from './GenerateTeamsButton';
 
 const mapStateToProps = state => {
     return {
-        players: state.players
+        players: state.players,
+        playersPerSide: state.playersPerSide
     };
 };
 
