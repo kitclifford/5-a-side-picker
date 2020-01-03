@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.scss';
 
-import PageHeader from './Components/PageHeader';
-
+import PageHeader from './Components/PageHeader/index';
 import TeamSettings from './Components/TeamSettings';
 import PickedTeams from './Components/PickedTeams';
 

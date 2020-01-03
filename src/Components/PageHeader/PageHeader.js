@@ -1,13 +1,16 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
-import football_svg from '../Media/svgs/soccer-ball.svg';
+import football_svg from '../../Media/svgs/soccer-ball.svg';
 
-const PageHeader = () => (
+const PageHeader = ({ playersPerSide }) => (
 
     <Jumbotron>
         <div className="page_header">
             <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
-            <h1>5-a-side Football Team Picker</h1>
+            <div>
+                <h1>Football Team Picker</h1>
+                <h2>{ playersPerSide }-a-side</h2>
+            </div>
             <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
         </div>
     </Jumbotron>
