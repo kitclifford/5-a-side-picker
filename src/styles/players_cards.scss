@@ -1,0 +1,12 @@
+/* Player Cards */
+
+.player_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete_icon {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
