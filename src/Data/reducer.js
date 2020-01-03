@@ -13,6 +13,7 @@ const deletePlayer = (state, action) => ({
     players: state.players.filter((player) => player.name !== action.id)
 });
 
+// Takes an array of players and randomly splices a player and then inserts it into team 1 or team 2 based on 
 const randomTeams = ( current_state ) => {
     let players = [...current_state.players];
     let team1 = [];
@@ -39,6 +40,7 @@ const setTeams = (state, generatedTeams) => ({
     team1: generatedTeams[0],
     team2: generatedTeams[1],
     players: generatedTeams[2],
+    teamsPicked: true
 
 });
 

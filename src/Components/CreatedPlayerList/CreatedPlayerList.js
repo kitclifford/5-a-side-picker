@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+
 import delete_icon from '../../Media/svgs/delete-button.svg';
 
 
@@ -46,10 +47,6 @@ class CreatedPlayerList extends Component{
                         </div>
                     </Card>
                 )) }
-                <Button 
-                    style={{ display: players.length === 10 ? "block" : "none" }}
-                    onClick={ this.handleGenerate }
-                >Generate Teams</Button>
             </>
         )
     }
