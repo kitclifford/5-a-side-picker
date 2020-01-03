@@ -7,7 +7,7 @@ const PageHeader = ({ playersPerSide }) => (
     <Jumbotron>
         <div className="page_header">
             <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
-            <div>
+            <div className="header_text">
                 <h1>Football Team Picker</h1>
                 <h2>{ playersPerSide }-a-side</h2>
             </div>
