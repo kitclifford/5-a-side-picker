@@ -1,8 +1,22 @@
 /* Player Cards */
 
+.created_players {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .player_card {
+  max-width: 90%;
+  margin: 10px;
+}
+
+.player_card_inner {
   display: flex;
   justify-content: space-between;
+}
+
+.player_card_inner p{
+  margin: 8px 0 0 10px;
 }
 
 .delete_icon {

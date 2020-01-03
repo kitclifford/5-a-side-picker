@@ -1,11 +1,41 @@
 /* Header */
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
 .page_header {
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
 .football_header_icon {
-height: 100px;
-width: 100px;
-margin: 10px 40px;
+  height: 100px;
+  width: 100px;
+  margin: 10px 40px;
+}
+
+@media(max-width: 800px){
+    h1{
+        font-size: 2em;
+    }
+
+    .football_header_icon {
+        height: 60px;
+        width: 60px;
+        margin: 10px 30px;
+    }
+}
+
+@media(max-width: 400px){
+    h1{
+        font-size: 1rem;
+    }
+
+    .football_header_icon {
+        height: 30px;
+        width: 30px;
+        margin: 10px 10px;
+    }
 }

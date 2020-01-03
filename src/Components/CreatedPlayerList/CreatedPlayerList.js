@@ -32,10 +32,10 @@ class CreatedPlayerList extends Component{
         let { players } = this.props;
 
         return(
-            <>
+            <div className ='created_players'>
                 { players.map ((player, index) => (
-                    <Card key={ index }>
-                        <div className="player_card">
+                    <Card key={ index } className="player_card">
+                        <div className="player_card_inner">
                             <p>{ player.name }</p>
                             <img 
                                 src={ delete_icon } 
@@ -47,7 +47,7 @@ class CreatedPlayerList extends Component{
                         </div>
                     </Card>
                 )) }
-            </>
+            </div>
         )
     }
 }
