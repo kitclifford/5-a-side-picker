@@ -13,7 +13,7 @@ const deletePlayer = (state, action) => ({
     players: state.players.filter((player) => player.name !== action.id)
 });
 
-// Takes an array of players and randomly splices a player and then inserts it into team 1 or team 2 based on 
+// Takes an array of players and randomly splices a player and then alternates inserting them into team 1/ team 2 
 const randomTeams = ( current_state ) => {
     let players = [...current_state.players];
     let team1 = [];
@@ -44,6 +44,13 @@ const setTeams = (state, generatedTeams) => ({
 
 });
 
+const changeNumberPerSide = (state, action) => ({
+
+    ...state,
+    playersPerSide: action.numberPerSide
+
+});
+
 const reducer = (state, action) => {
     switch (action.type){
         case "reset": return {...initial};
@@ -53,6 +60,7 @@ const reducer = (state, action) => {
             const generatedTeams = randomTeams(state);
             return(setTeams(state, generatedTeams));
         }
+        case "changeNumberPerSide": return changeNumberPerSide(state, action);
         default: return state;
     };
 };

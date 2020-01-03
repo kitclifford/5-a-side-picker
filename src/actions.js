@@ -23,3 +23,10 @@ export const generateTeams = () => {
         type: "generateTeams"
     };
 };
+
+export const changeNumberPerSide = (n) => {
+    return {
+        type: "changeNumberPerSide",
+        numberPerSide: n
+    }
+}
