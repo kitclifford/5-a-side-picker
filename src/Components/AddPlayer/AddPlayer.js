@@ -32,6 +32,9 @@ class AddPlayer extends Component{
     }
 
     render(){
+
+        let { players, playersPerSide } = this.props;
+
         return(
             <Form onSubmit={ this.handleSubmit }>
                 <Form.Group>
@@ -42,7 +45,17 @@ class AddPlayer extends Component{
                         onChange={ this.handleChangeName }
                     />
                 </Form.Group>
-                <Button variant="primary" type="submit">Add Player</Button>
+                <Button 
+                    variant="primary" 
+                    type="submit"
+                    style={ {display: players.length === (playersPerSide * 2) ? "none" : "block" } }
+                >Add Player</Button>
+                <p
+                    style={ { 
+                        display: ((playersPerSide * 2) - players.length) > 0 ? "block" : "none"  }}
+                >
+                    Please add { (playersPerSide * 2) - players.length } more player{ ((playersPerSide * 2) - players.length) === 1 ? '' : 's' }.
+                    </p>
             </Form>
         );
     };

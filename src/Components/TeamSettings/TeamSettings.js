@@ -11,7 +11,9 @@ const TeamSettings = ({ teamsPicked, generateButtonText }) => (
 
     <div style ={ { display: teamsPicked ? 'none' : 'block' } }>
         <AddPlayer/>
-        <GenerateTeamsButton buttonText={ generateButtonText }/>
+        <div className="center_button">
+            <GenerateTeamsButton buttonText={ generateButtonText }/>
+        </div>
         <CreatedPlayerList/>
         <ResetButton/>
         <TeamsCustomisation/>
