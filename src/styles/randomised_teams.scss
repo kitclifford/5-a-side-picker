@@ -1,0 +1,20 @@
+// Randomised Teams
+
+.players_table {
+    border: solid 2px white;
+}
+
+.players_table th {
+    border: solid 2px white;
+    width: 50%;
+}
+
+.players_table td {
+    border: none; 
+}
+
+.players_table td:nth-child(1) {
+    border-right: solid 2px white;
+}
+
+

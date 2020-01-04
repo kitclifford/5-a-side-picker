@@ -1,9 +1,7 @@
 import React from 'react';
 
 import ResetButton from '../ResetButton';
-
 import GenerateTeamsButton from '../GenerateTeamsButton';
-
 import RandomisedTeams from '../RandomisedTeams';
 
 const PickedTeams = ({ teamsPicked, generateButtonText }) => (

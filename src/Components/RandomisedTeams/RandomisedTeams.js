@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 
 const RandomisedTeams = ({ team1, team2 }) => (
 
-    <Table>
+    <Table className="players_table">
         <thead>
             <th>Team 1</th>
             <th>Team 2</th>
