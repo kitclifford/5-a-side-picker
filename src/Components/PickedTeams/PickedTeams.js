@@ -1,15 +1,15 @@
 import React from 'react';
 
 import ResetButton from '../ResetButton';
-import RandomisedTeam1 from '../RandomisedTeam/RandomisedTeam1';
-import RandomisedTeam2 from '../RandomisedTeam/RandomisedTeam2';
+
 import GenerateTeamsButton from '../GenerateTeamsButton';
+
+import RandomisedTeams from '../RandomisedTeams';
 
 const PickedTeams = ({ teamsPicked, generateButtonText }) => (
 
     <div style ={ { display: teamsPicked ? 'block' : 'none' } }>
-        <RandomisedTeam1/>
-        <RandomisedTeam2/>
+        <RandomisedTeams/>
         <GenerateTeamsButton buttonText={ generateButtonText } />
         <ResetButton/>
     </div>
