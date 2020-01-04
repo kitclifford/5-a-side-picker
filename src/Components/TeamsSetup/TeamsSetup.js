@@ -7,7 +7,7 @@ import ResetButton from '../ResetButton';
 
 import TeamsCustomisation from '../TeamsCustomisation';
 
-const TeamSettings = ({ teamsPicked, generateButtonText }) => (
+const TeamsSetup = ({ teamsPicked, generateButtonText }) => (
 
     <div style ={ { display: teamsPicked ? 'none' : 'block' } }>
         <AddPlayer/>
@@ -21,5 +21,5 @@ const TeamSettings = ({ teamsPicked, generateButtonText }) => (
 
 )
 
-export default TeamSettings;
+export default TeamsSetup;
 

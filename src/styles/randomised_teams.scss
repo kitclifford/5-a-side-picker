@@ -2,11 +2,20 @@
 
 .players_table {
     border: solid 2px white;
+    border-radius: 15px;
+}
+
+.players_table table {
+    margin-bottom: 0;
 }
 
 .players_table th {
-    border: solid 2px white;
+    border: none;
     width: 50%;
+}
+
+.players_table th:nth-child(1) {
+    border-right: solid 2px white;
 }
 
 .players_table td {

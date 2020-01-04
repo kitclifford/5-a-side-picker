@@ -31,7 +31,7 @@ class TeamsCustomisation extends Component{
                     <Form.Label>Players Per Side</Form.Label>
                     <Form.Control 
                         value= { this.state.playersPerSide }
-                        type="number"
+                        type="number" min="3" max="18"
                         onChange={ this.handleChange }
                     />
                 </Form.Group>

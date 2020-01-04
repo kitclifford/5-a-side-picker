@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 
-import TeamSettings from './TeamSettings';
+import TeamsSetup from './TeamsSetup';
 
 const mapStateToProps = state => {
     return {
@@ -10,4 +10,4 @@ const mapStateToProps = state => {
     };
 };
 
-export default connect(mapStateToProps)(TeamSettings);
+export default connect(mapStateToProps)(TeamsSetup);
