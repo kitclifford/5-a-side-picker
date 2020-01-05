@@ -28,11 +28,11 @@ npm start
 
 ## Credit/Thanks
 
-Football SVG - <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Football SVG - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
-Close SVG - <div>Icons made by <a href="https://www.flaticon.com/authors/pavel-kozlov" title="Pavel Kozlov">Pavel Kozlov</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Close SVG - Icons made by <a href="https://www.flaticon.com/authors/pavel-kozlov" title="Pavel Kozlov">Pavel Kozlov</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
-Shirt SVG - <div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Shirt SVG - Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
 SVG Optimiser by Peter Collingridge used to compress shirt SVG <a href="http://petercollingridge.appspot.com/svg-optimiser">petercollingridge.appspot.com/svg-optimiser</a>
 
