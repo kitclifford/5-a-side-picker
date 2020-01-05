@@ -51,6 +51,17 @@ const changeNumberPerSide = (state, action) => ({
 
 });
 
+const teamsCustomisation = (state, action) => ({
+
+    ...state,
+    playersPerSide: action.playersPerSide,
+    team_one_color: action.color_one,
+    team_two_color: action.color_two,
+    team_one_name: action.team_one_name,
+    team_two_name: action.team_two_name
+
+});
+
 const reducer = (state, action) => {
     switch (action.type){
         case "reset": return {...initial};
@@ -61,6 +72,7 @@ const reducer = (state, action) => {
             return(setTeams(state, generatedTeams));
         }
         case "changeNumberPerSide": return changeNumberPerSide(state, action);
+        case "teamsCustomisation": return teamsCustomisation(state, action);
         default: return state;
     };
 };

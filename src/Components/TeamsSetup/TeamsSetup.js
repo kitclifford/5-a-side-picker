@@ -4,7 +4,6 @@ import AddPlayer from '../AddPlayer';
 import CreatedPlayerList from '../CreatedPlayerList';
 import GenerateTeamsButton from '../GenerateTeamsButton';
 import ResetButton from '../ResetButton';
-
 import TeamsCustomisation from '../TeamsCustomisation';
 
 const TeamsSetup = ({ teamsPicked, generateButtonText }) => (

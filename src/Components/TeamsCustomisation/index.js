@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 
 import { changeNumberPerSide } from '../../actions';
+import { teamsCustomisation } from '../../actions';
+
 
 import TeamsCustomisation from './TeamsCustomisation';
 
@@ -12,7 +14,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        changeNumberPerSide: n => dispatch(changeNumberPerSide(Number(n)))
+        teamsCustomisation: settings => dispatch(teamsCustomisation(settings))
     }
 }
 
