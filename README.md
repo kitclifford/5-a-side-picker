@@ -39,6 +39,12 @@ I developed the app initially in desktop format but always had it in mind to add
 
 The initial MVP was just to split a list of 10 names into 2 random teams but once I had this working I decided to extend this to an n-per-side as per the extended project brief. Whilst adding that functionality, I decided having custom kit colours and team names added something a bit more fun and interactive to the app.
 
+## Further Development
+
+With more time to develop the project I would to add the ability to add players' preferred positions and ability. This would require changes to the team distribution function as it would no longer be totally random.
+
+I also would have liked to start testing sooner as after deploying I realised there is a bug when the team names or player names are too long it messes with the styling on mobile and tablet devices.
+
 ## Credit/Thanks
 
 Football SVG - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
