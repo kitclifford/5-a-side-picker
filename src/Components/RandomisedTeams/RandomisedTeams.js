@@ -6,8 +6,10 @@ const RandomisedTeams = ({ team1, team2, team_one_color, team_two_color, team_on
     <div className="players_table">
         <Table>
             <thead>
-                <th>{ team_one_name }</th>
-                <th>{ team_two_name }</th>
+                <tr>
+                    <td>{ team_one_name }</td>
+                    <td>{ team_two_name }</td>
+                </tr>
             </thead>
             <tbody>
                 { team1.map((player, index) => (

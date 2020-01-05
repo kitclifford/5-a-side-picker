@@ -24,13 +24,6 @@ export const generateTeams = () => {
     };
 };
 
-export const changeNumberPerSide = (n) => {
-    return {
-        type: "changeNumberPerSide",
-        numberPerSide: n
-    }
-}
-
 export const teamsCustomisation = ({ playersPerSide, color_one, color_two, team_one_name, team_two_name }) =>{
     return {
     type: "teamsCustomisation",

@@ -1,6 +1,5 @@
 import { connect } from 'react-redux';
 
-import { changeNumberPerSide } from '../../actions';
 import { teamsCustomisation } from '../../actions';
 
 

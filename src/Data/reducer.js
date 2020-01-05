@@ -44,13 +44,6 @@ const setTeams = (state, generatedTeams) => ({
 
 });
 
-const changeNumberPerSide = (state, action) => ({
-
-    ...state,
-    playersPerSide: action.numberPerSide
-
-});
-
 const teamsCustomisation = (state, action) => ({
 
     ...state,
@@ -71,7 +64,6 @@ const reducer = (state, action) => {
             const generatedTeams = randomTeams(state);
             return(setTeams(state, generatedTeams));
         }
-        case "changeNumberPerSide": return changeNumberPerSide(state, action);
         case "teamsCustomisation": return teamsCustomisation(state, action);
         default: return state;
     };
