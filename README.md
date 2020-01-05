@@ -4,7 +4,27 @@ Technical excercise set at the end of the Autumn 2019 DevelopMe Web Development 
 
 10 names can be added which will be randomly split into 2 teams of 5.
 
+## Setup/Installation on local machine
 
+npm is required to set up app on a local machine.
+
+Clone the git repository into a folder.
+
+```
+git clone git@github.com:kitclifford/5-a-side-picker.git
+```
+
+cd into the folder and run npm install to download packages.
+
+```
+npm install
+```
+
+When  the packages are installed, start the app with:
+
+```
+npm start
+```
 
 ## Credit/Thanks
 
