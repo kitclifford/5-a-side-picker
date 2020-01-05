@@ -5,7 +5,9 @@ import TeamsSetup from './TeamsSetup';
 const mapStateToProps = state => {
     return {
         teamsPicked: state.teamsPicked,
-        generateButtonText: 'Generate Teams'
+        generateButtonText: 'Generate Teams',
+        players: state.players,
+        playersPerSide: state.playersPerSide
 
     };
 };

@@ -6,15 +6,17 @@ import GenerateTeamsButton from '../GenerateTeamsButton';
 import ResetButton from '../ResetButton';
 import TeamsCustomisation from '../TeamsCustomisation';
 
-const TeamsSetup = ({ teamsPicked, generateButtonText }) => (
+const TeamsSetup = ({ teamsPicked, generateButtonText, players, playersPerSide }) => (
 
     <div style ={ { display: teamsPicked ? 'none' : 'block' } }>
         <AddPlayer/>
-        <div className="center_button">
+        <div 
+        className="add_player_buttons" 
+        style={ { display: players.length === (playersPerSide * 2) ? "flex" : "none"} }>
             <GenerateTeamsButton buttonText={ generateButtonText }/>
+            <ResetButton/>
         </div>
         <CreatedPlayerList/>
-        <ResetButton/>
         <TeamsCustomisation/>
     </div>
 

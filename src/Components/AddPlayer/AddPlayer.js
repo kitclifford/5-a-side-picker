@@ -46,20 +46,22 @@ class AddPlayer extends Component{
                         onChange={ this.handleChangeName }
                     />
                 </Form.Group>
-                <div className="add_player_buttons">
-                    <Button 
-                        variant="light" 
-                        type="submit"
-                        style={ {display: players.length === (playersPerSide * 2) ? "none" : "block" } }
-                    >Add Player</Button> 
+                <div className="add_player_buttons" style={ {display: players.length === (playersPerSide * 2) ? "none" : "flex" } }>
+                    <div className="add_player_info">
+                        <Button 
+                            variant="light" 
+                            type="submit"
+                        >Add Player</Button>
+                        <p
+                            style={ { 
+                                display: ((playersPerSide * 2) - players.length) > 0 ? "flex" : "none"  }}
+                        >
+                        Add { (playersPerSide * 2) - players.length } more player{ ((playersPerSide * 2) - players.length) === 1 ? '' : 's' }.
+                        </p>
+                    </div>
                     <ResetButton/>
                 </div>
-                <p
-                    style={ { 
-                        display: ((playersPerSide * 2) - players.length) > 0 ? "block" : "none"  }}
-                >
-                    Please add { (playersPerSide * 2) - players.length } more player{ ((playersPerSide * 2) - players.length) === 1 ? '' : 's' }.
-                    </p>
+                
             </Form>
         );
     };

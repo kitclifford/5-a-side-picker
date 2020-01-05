@@ -1,13 +1,18 @@
 /* Team Settings Page */
 
-.center_button {
-    display: flex;
-    justify-content: center;
+form p {
+    margin: 0 0 0 10px;
 }
 
 .add_player_buttons {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.add_player_info {
+    display: flex;
+    align-items: center;
 }
 
 .team_customisation {
@@ -22,7 +27,7 @@
 }
 
 .customisation_jumbotron {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px 32px;
 }
 

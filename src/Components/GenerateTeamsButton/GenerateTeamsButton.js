@@ -8,7 +8,7 @@ const GenerateTeamsButton = ({ players, generateTeams, buttonText, playersPerSid
     <Button
         variant="light"
         onClick={ generateTeams }
-        style={ { display: players.length === (playersPerSide * 2) ? "block" : "none"} }>
+        style={ { display: players.length === (playersPerSide * 2) ? "flex" : "none"} }>
         { buttonText }
     </Button>
 

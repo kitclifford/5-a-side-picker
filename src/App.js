@@ -2,14 +2,14 @@ import React from 'react';
 import './App.scss';
 
 import PageHeader from './Components/PageHeader/index';
-import TeamSettings from './Components/TeamSettings';
+import TeamsSetup from './Components/TeamsSetup';
 import PickedTeams from './Components/PickedTeams';
 
 function App() {
   return (
     <>
       <PageHeader/>
-      <TeamSettings/>
+      <TeamsSetup/>
       <PickedTeams/>
     </>
   );
