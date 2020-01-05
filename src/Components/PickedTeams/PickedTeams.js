@@ -8,8 +8,10 @@ const PickedTeams = ({ teamsPicked, generateButtonText }) => (
 
     <div style ={ { display: teamsPicked ? 'block' : 'none' } }>
         <RandomisedTeams/>
-        <GenerateTeamsButton buttonText={ generateButtonText } />
-        <ResetButton/>
+        <div className="randomised_teams_buttons">
+            <GenerateTeamsButton buttonText={ generateButtonText } />
+            <ResetButton/>
+        </div>
     </div>
 
 )

@@ -1,5 +1,10 @@
 // Randomised Teams
 
+.player_table_header {
+    text-align: center;
+    font-size: 4rem;
+}
+
 .players_table {
     border: solid 2px white;
     border-radius: 15px;
@@ -11,7 +16,8 @@
 
 .players_table thead {
     border: none;
-    border-bottom: solid 2px white;}
+    border-bottom: solid 2px white;
+}
 
 .players_table td {
     border: none; 
@@ -22,8 +28,64 @@
     border-right: solid 2px white;
 }
 
-.list_shirt {
-    width: 40%;
+.shirt_and_player_name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 20px;
 }
 
+.shirt_and_player_name h5 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2rem;
+    word-wrap: break-word
+}
 
+.list_shirt {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.randomised_teams_buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.randomised_teams_buttons Button {
+    margin: 30px 10px;
+    font-size: 3rem;
+}
+
+@media(max-width: 800px){
+    .player_table_header {
+        font-size: 2rem;
+    }
+
+    .shirt_and_player_name h5 {
+        font-size: 1.6rem;
+    }
+
+    .randomised_teams_buttons Button {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 400px){
+    .player_table_header {
+        font-size: 1.25rem;
+    }
+
+    .shirt_and_player_name h5 {
+        font-size: 1rem;
+    }
+
+    .randomised_teams_buttons Button {
+        font-size: 1.25rem;
+    }
+
+    .shirt_and_player_name {
+        margin-left: 5px;
+    }
+}
