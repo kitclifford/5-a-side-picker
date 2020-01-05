@@ -33,9 +33,9 @@ This will load up the app in your default web browser.
 
 I decided to build the project with React-Redux as it allowed for quick development of the UI and meant it was easier to pass different data up to global state. It was also the part of course I enjoyed most but also found most complicated, so having a go at developing an app from start to finish with it was something I wanted to try.
 
-My planning in terms of overall design was pretty basic, just making some handwritten wireframes and a plan of my initial state (player array of separate player objects). In hindsight I would have liked to spend more time on planning the design in terms of colour schemes and component layout as once I actually had the minimal viable product working I felt I lacked the creativity to make the design really pop.
+My planning in terms of overall design was pretty basic, just making some handwritten wireframes and a plan of my initial state (player array of separate player objects). In hindsight I would have liked to spend more time on planning the design in terms of colour schemes and component layout as once I actually had the minimal viable product working I felt the design didn't really pop.
 
-I developed the app initially in desktop format but always had it in mind to add mobile and tablet friendly styling. The majority of the sass styling is responsive but I added media queries where necessary to make font fit better and other components.
+I developed the app initially in desktop format but always had it in mind to add mobile and tablet friendly styling. The majority of the styling is responsive but I added media queries where necessary to make font fit better and other components.
 
 The initial MVP was just to split a list of 10 names into 2 random teams but once I had this working I decided to extend this to an n-per-side as per the extended project brief. Whilst adding that functionality, I decided having custom kit colours and team names added something a bit more fun and interactive to the app.
 
@@ -52,5 +52,7 @@ SVG Optimiser by Peter Collingridge used to compress shirt SVG <a href="http://p
 Octin Sports Font made by Raymond Larabie <a href="https://www.1001fonts.com/octin-sports-free-font.html">www.1001fonts.com/octin-sports-free-font.html</a>
 
 SF Sports Night Font Family made by ShyFoundry Fonts <a href="https://www.1001fonts.com/sf-sports-night-font.html">www.1001fonts.com/sf-sports-night-font.html</a>
+
+Thanks to all the developers behind the various npm packages used in this project.
 
 And finally a thanks to everyone at DevelopMe for a great experience on the Autumn 2019 Bootcamp - you are all wonderful people!
