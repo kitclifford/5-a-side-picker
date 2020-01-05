@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kitclifford/5-a-side-picker/static/css/main.07d97624.chunk.css",
-    "main.js": "/kitclifford/5-a-side-picker/static/js/main.e08b9d9f.chunk.js",
-    "main.js.map": "/kitclifford/5-a-side-picker/static/js/main.e08b9d9f.chunk.js.map",
-    "runtime-main.js": "/kitclifford/5-a-side-picker/static/js/runtime-main.00bf3c66.js",
-    "runtime-main.js.map": "/kitclifford/5-a-side-picker/static/js/runtime-main.00bf3c66.js.map",
-    "static/js/2.f01276a8.chunk.js": "/kitclifford/5-a-side-picker/static/js/2.f01276a8.chunk.js",
-    "static/js/2.f01276a8.chunk.js.map": "/kitclifford/5-a-side-picker/static/js/2.f01276a8.chunk.js.map",
-    "index.html": "/kitclifford/5-a-side-picker/index.html",
-    "precache-manifest.8b9238d04fbb4ce4dde6680d26e5fa26.js": "/kitclifford/5-a-side-picker/precache-manifest.8b9238d04fbb4ce4dde6680d26e5fa26.js",
-    "service-worker.js": "/kitclifford/5-a-side-picker/service-worker.js",
-    "static/css/main.07d97624.chunk.css.map": "/kitclifford/5-a-side-picker/static/css/main.07d97624.chunk.css.map",
-    "static/js/2.f01276a8.chunk.js.LICENSE": "/kitclifford/5-a-side-picker/static/js/2.f01276a8.chunk.js.LICENSE",
-    "static/media/App.scss": "/kitclifford/5-a-side-picker/static/media/octin-sports-rg.c75413a1.ttf",
-    "static/media/delete-button.svg": "/kitclifford/5-a-side-picker/static/media/delete-button.0058d2b0.svg",
-    "static/media/soccer-ball.svg": "/kitclifford/5-a-side-picker/static/media/soccer-ball.050bd8a0.svg"
+    "main.css": "/5-a-side-picker/static/css/main.9bb913db.chunk.css",
+    "main.js": "/5-a-side-picker/static/js/main.e08b9d9f.chunk.js",
+    "main.js.map": "/5-a-side-picker/static/js/main.e08b9d9f.chunk.js.map",
+    "runtime-main.js": "/5-a-side-picker/static/js/runtime-main.d0d00014.js",
+    "runtime-main.js.map": "/5-a-side-picker/static/js/runtime-main.d0d00014.js.map",
+    "static/js/2.f01276a8.chunk.js": "/5-a-side-picker/static/js/2.f01276a8.chunk.js",
+    "static/js/2.f01276a8.chunk.js.map": "/5-a-side-picker/static/js/2.f01276a8.chunk.js.map",
+    "index.html": "/5-a-side-picker/index.html",
+    "precache-manifest.e46153563f1768b38a94528cddf21d96.js": "/5-a-side-picker/precache-manifest.e46153563f1768b38a94528cddf21d96.js",
+    "service-worker.js": "/5-a-side-picker/service-worker.js",
+    "static/css/main.9bb913db.chunk.css.map": "/5-a-side-picker/static/css/main.9bb913db.chunk.css.map",
+    "static/js/2.f01276a8.chunk.js.LICENSE": "/5-a-side-picker/static/js/2.f01276a8.chunk.js.LICENSE",
+    "static/media/App.scss": "/5-a-side-picker/static/media/octin-sports-rg.c75413a1.ttf",
+    "static/media/delete-button.svg": "/5-a-side-picker/static/media/delete-button.0058d2b0.svg",
+    "static/media/soccer-ball.svg": "/5-a-side-picker/static/media/soccer-ball.050bd8a0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00bf3c66.js",
+    "static/js/runtime-main.d0d00014.js",
     "static/js/2.f01276a8.chunk.js",
-    "static/css/main.07d97624.chunk.css",
+    "static/css/main.9bb913db.chunk.css",
     "static/js/main.e08b9d9f.chunk.js"
   ]
 }
