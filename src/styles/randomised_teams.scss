@@ -9,21 +9,21 @@
     margin-bottom: 0;
 }
 
-.players_table th {
+.players_table thead {
     border: none;
-    width: 50%;
-}
-
-.players_table th:nth-child(1) {
-    border-right: solid 2px white;
-}
+    border-bottom: solid 2px white;}
 
 .players_table td {
     border: none; 
+    width: 50%;
 }
 
 .players_table td:nth-child(1) {
     border-right: solid 2px white;
+}
+
+.list_shirt {
+    width: 40%;
 }
 
 
