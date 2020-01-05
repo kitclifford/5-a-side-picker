@@ -4,7 +4,7 @@ import football_svg from '../../Media/svgs/soccer-ball.svg';
 
 const PageHeader = ({ playersPerSide }) => (
 
-    <Jumbotron>
+    <Jumbotron className="header_jumbotron">
         <div className="page_header">
             <img className="football_header_icon" src={ football_svg } alt='Football SVG icon'/>
             <div className="header_text">

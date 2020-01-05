@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'SFSportsNight';
+    src: url('../Assets/fonts/sf-sports-night/SFSportsNight.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: 'octin-sports-free';
+    src: url('../Assets/fonts/octin-sports-free/octin-sports-rg.ttf') format("truetype");
+}
+
+$headerText: 'SFSportsNight', 'Arial', sans-serif;
+$labelText: 'octin-sports-free', 'Arial', sans-serif;

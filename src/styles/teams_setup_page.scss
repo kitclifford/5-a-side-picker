@@ -10,6 +10,14 @@ form p {
     margin-bottom: 10px;
 }
 
+@media(max-width: 400px){
+
+    .add_player_buttons {
+        font-size: 0.8rem;
+    }
+
+}
+
 .add_player_info {
     display: flex;
     align-items: center;

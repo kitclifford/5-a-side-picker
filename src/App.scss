@@ -1,3 +1,4 @@
+@import 'styles/fonts.scss';
 @import 'styles/header.scss';
 @import 'styles/players_cards.scss';
 @import 'styles/teams_setup_page.scss';
@@ -14,6 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: green;
+  font-family: $labelText;
 }
 
 

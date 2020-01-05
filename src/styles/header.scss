@@ -1,13 +1,18 @@
 /* Header */
+.header_jumbotron {
+    margin: 10px 0;
+}
 
 .header_text h1 {
     margin: 0;
     text-align: center;
+    font-family: $headerText;
 }
 
 .header_text h2 {
     margin: 0;
     text-align: center;
+    font-family: $headerText;
 }
 
 .page_header {
