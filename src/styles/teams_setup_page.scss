@@ -5,16 +5,73 @@
     justify-content: center;
 }
 
+.add_player_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .team_customisation {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+.individual_team_customisation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customisation_jumbotron {
+    margin-top: 20px;
+    padding: 20px 32px;
+}
+
+.customisation_jumbotron h1 {
+    margin: 0;
+}
+
+.customisation_jumbotron div.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.customisation_jumbotron div.form-group label {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.customisation_jumbotron div.form-group input {
+    margin-left: 15px;
+    max-width: 60px;
+    border: 0.5px solid black;
+}
+
+.customisation_jumbotron input {
+    border: 0.5px solid black;
+}
+
+.customisation_jumbotron label {
+    margin: 10px 0 0 0;
+}
+
+.individual_team_customisation input {
+    width: 80%;
+}
+
 .shirt {
-    width: 90%;
+    width: 50%;
 }
 
 .slider-picker {
     width: 90%;
     margin: 0;
+}
+
+.save_button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 0.5px solid black;
 }

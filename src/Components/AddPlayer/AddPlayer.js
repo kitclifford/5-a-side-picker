@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import ResetButton from '../ResetButton';
 
 class AddPlayer extends Component{
 
@@ -45,11 +46,14 @@ class AddPlayer extends Component{
                         onChange={ this.handleChangeName }
                     />
                 </Form.Group>
-                <Button 
-                    variant="primary" 
-                    type="submit"
-                    style={ {display: players.length === (playersPerSide * 2) ? "none" : "block" } }
-                >Add Player</Button>
+                <div className="add_player_buttons">
+                    <Button 
+                        variant="light" 
+                        type="submit"
+                        style={ {display: players.length === (playersPerSide * 2) ? "none" : "block" } }
+                    >Add Player</Button> 
+                    <ResetButton/>
+                </div>
                 <p
                     style={ { 
                         display: ((playersPerSide * 2) - players.length) > 0 ? "block" : "none"  }}
